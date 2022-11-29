@@ -1,0 +1,208 @@
+/* roboto-regular - latin_cyrillic */
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  src: local(""),
+    url("../fonts/roboto-v30-latin_cyrillic-regular.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url("../fonts/roboto-v30-latin_cyrillic-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* roboto-700 - latin_cyrillic */
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  src: local(""),
+    url("../fonts/roboto-v30-latin_cyrillic-700.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url("../fonts/roboto-v30-latin_cyrillic-700.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* GLOBAL */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+body {
+  height: 100%;
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.main {
+  height: 100%;
+  display: flex;
+}
+
+.container {
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+/* MAIN */
+.main-container {
+  display: flex;
+  width: 100%;
+  position: relative;
+}
+
+.left {
+  width: 100%;
+  background-image: url(../images/left-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.right {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.login-info {
+  margin-bottom: 24px;
+  align-self: start;
+}
+
+.login-description {
+  color: #2d3748;
+  margin-bottom: 2px;
+}
+
+.login-title {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 35px;
+  color: #1a202c;
+}
+
+.email {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 11px;
+}
+
+.email label {
+  margin-bottom: 11px;
+  color: #2d3748;
+}
+
+#email,
+#password {
+  width: 350px;
+  padding: 17px 20px;
+  font-size: 14px;
+  line-height: 16px;
+  color: #2d3748;
+  font-weight: 400;
+  border: 1px solid #e8e8e8;
+  border-radius: 5px;
+  outline-color: #2d3748;
+}
+
+.password {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 28px;
+}
+
+.password label {
+  margin-bottom: 11px;
+}
+
+.remember {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 27px;
+}
+
+#remember {
+  margin-right: 11px;
+}
+
+.remember-item label {
+  font-size: 14px;
+}
+
+.remember-link {
+  font-size: 14px;
+  color: #2c5282;
+  font-weight: 400;
+  line-height: 16px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-btn {
+  background-color: #04c35c;
+  margin-bottom: 15px;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-weight: 700;
+  color: #fff;
+  width: 347px;
+  height: 50px;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.google-btn {
+  background-color: #2d3748;
+  gap: 11px;
+}
+
+.right-text {
+  margin-top: 70px;
+  text-align: center;
+  color: #616161;
+}
+
+.right-text-link {
+  color: #2b6cb0;
+}
+
+
+.gg

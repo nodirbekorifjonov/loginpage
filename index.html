@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Login Page</title>
+  </head>
+  <body>
+    <!-- MAIN -->
+    <main class="main">
+      <div class="main-container container">
+        <div class="left"></div>
+        <div class="right">
+          <div class="content">
+            <div class="login-info">
+              <p class="login-description">Welcome back</p>
+              <h1 class="login-title">Login to your account</h1>
+            </div>
+            <form action="https://echo.htmlacademy.ru" method="GET">
+              <div class="email">
+                <label for="email">Email</label>
+                <input
+                  id="email"
+                  name="User Email"
+                  type="email"
+                  placeholder="Enter your Email"
+                  required
+                  value="John.snow@gmail.com"
+                />
+              </div>
+              <div class="password">
+                <label for="password">Password</label>
+                <input
+                  id="password"
+                  name="User Password"
+                  type="password"
+                  placeholder="Your password"
+                />
+              </div>
+              <ul class="remember">
+                <li class="remember-item">
+                  <input
+                    id="remember"
+                    name="remember"
+                    type="checkbox"
+                    checked
+                  />
+                  <label for="remember">Remember me</label>
+                </li>
+                <div class="remember-item">
+                  <a class="remember-link" href="#">Forgot password?</a>
+                </div>
+              </ul>
+              <div class="buttons">
+                  <button type="submit" class="login-btn btn">Login now</button>
+                <a class="google-btn btn" href="https://accounts.google.com/o/oauth2/v2/auth/oauthchooseaccount?client_id=532352704633-6pkces9iboppp465idnovkcqtlsa8j7t.apps.googleusercontent.com&redirect_uri=https%3A%2F%2Fwww.figma.com%2Ffinish_google_sso&response_type=code&scope=profile%20email&access_type=online&prompt=select_account&state=sixAMTR1sh9rpMFlYMSEj3GD8AdD0ujFk5vAH3RAoF08&service=lso&o2v=2&flowName=GeneralOAuthFlow" target="_blank">
+                  <img
+                    class="google-icon"
+                    src="./images/google.svg"
+                    alt="Google icon"
+                    width="20"
+                    height="20"
+                  />
+                  <p>Or sign-in with google</p>
+                </a>
+              </div>
+            </form>
+            <p class="right-text">
+                Dont have an account?
+                <a class="right-text-link" href="#">Join free today</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
+    <div class="gg"></div>
+  </body>
+</html>
